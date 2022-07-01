@@ -59,6 +59,6 @@ history = model_np.fit(train_data, train_y,
                        epochs=epochs)
 
 print("training complete....")
-print('Predict on test...')
+print('Predict on test:Utility Count')
 prob_test = model_np.predict(test_data[5000:10000])
 #print("model-utility...",prob_test)
